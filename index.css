@@ -1,0 +1,75 @@
+#title {
+  font-size: 1.75em;
+}
+#business-name {
+  font-size: 2.2em;
+  margin-top: -20px;
+}
+div.container-fluid {
+  position: relative;
+}
+li {
+  width:100%;
+}
+.dropdown-item {
+  width:100%;
+  position: static;
+}
+.protien {
+  font-size: 1.4em;
+  text-align: center;
+}
+.navbar {
+  background-color: #3da0a3;
+  position: sticky;
+  top:0;
+  width: 100%;
+}
+body {
+  background-color: #7cc5b2;
+}
+#beef {
+  background-color: #d36967;
+}
+#chicken {
+  background-color: #e8c812;
+}
+#sushi {
+  background-color: #fe9865;
+}
+section {
+  padding: 4px 2px 3px;
+  box-sizing: border-box;
+  border: 3px solid;
+  text-align: center;
+  margin: 10px 5px 15px;
+}
+.menu {
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+  #our-menu {
+    display: none;
+}
+}
+@media (max-width:767.9px) {
+    #our-menu {
+      margin: 15px 0;
+      height: 40px;
+      width:20%;
+      display: block;
+    }
+  #business-name {
+    display: none;
+  }
+  #title {
+    display: none;
+  }
+  .navbar {
+    height: 60px;
+  }
+}
